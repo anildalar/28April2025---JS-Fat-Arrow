@@ -1,0 +1,35 @@
+1. Revision
+2. New JS Fat Arrow Function => ES6 (2015)
+3. Operator Precedence = BODMAS
+
+  5*5+5= 50 Incorrect
+  5*5+5= 30 Correct
+  5*(5+5)= 50 Correct  ?
+
+Which One is correct ?
+	
+4. How to check Type (type of) 
+5. Type Conversion.
+
+
+let addNumbers=()=>{
+
+}
+
+
+Types ?
+Data Types
+
+"Anil" -> String
+30 = Number
+5.6  = Number
+
+How you can programtically check the types ?
+
++
+-
+*
+
+typeof Operator
+
+typeof "Anil"
