@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        
+
+        <script>
+
+        </script>
+        <script>
+            // Variable are storage unit
+            //Old way of defining variable
+            var x=1;
+
+            //New way of defining variable ES6 (2015)
+            let y=2;
+            const z=4;
+            a = 5;
+
+            console.log((x+y)-(z-a)); // 3 - (-1) 4
+            console.log(x+(y-z)-a); // -6
+            // + = Addition operator
+
+            //(x+y)-(z-a)
+
+            //Functions are reusable block of code
+            //1. define
+                   //camleCase
+            //Old way of defining function
+            function addMyTwoNumbers(x,y,z=20){ //Formal Argument
+                                          //z is our default value
+                console.log(x+y+z);
+            }
+
+            //2. Call/Use
+            addMyTwoNumbers(10,20,30);//Actual Argument
+
+            //New way of defining function ES6 (2015)
+            let addNumbers=(a,b)=>{//We are recieving
+                console.log(a+b);
+            }
+
+            addNumbers(1,2);//We Sending //1,2 are actual arguemnts/Parameter
+
+            console.log(typeof "Anil");
+            console.log(typeof 30);
+            console.log(typeof 5.6);
+
+            
+
+
+        </script>
+        <script>
+            //Class are blueprint that encapsulate properties and method
+
+            //1. Define
+            class MyClass{
+                //1. Property=variable
+                // We can define multple properties here.
+                x; //Define
+                y; //Define
+
+                //2. constructor == Esp function
+                constructor(){
+                    //The role of constructor is to initialie properties
+                    //cio class internal object
+                    // object.member
+                    this.x=10;
+                    this.y=5;
+                }
+
+                //3.
+                addNumbers(a,b){//We are recieving
+                    console.log(a+b);
+                }
+
+            }
+
+            //2. Call/Class Instantiation/Create class Object
+
+            //let ceo = new ClassName();
+            let ceo1 = new MyClass();
+                    // object.member
+                    // object.property
+            console.log(ceo1.x+ceo1.y);
+            // object.method()
+            ceo1.addNumbers(20,30); // aa1,aa2
+
+
+        </script>
+    </body>
+</html>
